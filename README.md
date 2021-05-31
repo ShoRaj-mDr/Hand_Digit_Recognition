@@ -3,12 +3,10 @@ Classify hand digits from 0-5 using Keras convolutional neural networks.
 
 
 ## Requirements
----
 Python3, Keras, TensorFlow, sklearn, OpenCV, Mathplotlib 
 
 
 ## Dataset Description
----
 The images in the dataset are either showing the left hand or right hand, of which the hand may be holding up 0 to 5 finger digits. Each image is 128x128 pixels and is centered by the center of mass.
 
 ![Fingers Dataset](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/Fingers%20Dataset.png)
@@ -27,7 +25,6 @@ __Link:__   (http://kaggle.com/koryakinp/fingers)
 
 
 ## Simple Convolutional Neural Networks (CNNs)
----
 The CNN model has 2 Convolutional Layers, with 32 filters followed by 64, 3x3 Kernel Size, and 2x2 Stride. The images then go through a MaxPooling layer of size 2x2, followed by ReLu as an activation function. The data is then flattened to convert into a 1-dimensional array which then goes through two Dense layers of sizes 32 and 6 (number of classes). The CNN model has two dropout rate of 0.25 and 0.5. The loss function is the categorical cross-entropy which just computes the cross-entropy loss between the labels and predictions with a learning rate of 0.005. 
 
 __Model Pattern:__ 
@@ -53,16 +50,14 @@ return model
 
 
 ## Result
----
-
-### Confusion Matrix
+#### Confusion Matrix
 ![confusion_matrix](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/confusion_matrix.png)
 
-### Accuracy
+#### Accuracy
 ![Accuracy](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/accuracy.png)
 
-### Loss
+#### Loss
 ![Loss](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/loss.png)
 
-### Prediction
+#### Prediction
 ![Prediction](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/prediction.png)
