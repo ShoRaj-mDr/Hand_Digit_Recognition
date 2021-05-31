@@ -55,7 +55,14 @@ return model
 ## Result
 ---
 
+### Confusion Matrix
+![confusion_matrix](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/confusion_matrix.png)
 
+### Accuracy
+![Accuracy](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/accuracy.png)
 
+### Loss
+![Loss](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/loss.png)
 
-
+### Prediction
+![Prediction](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/prediction.png)
