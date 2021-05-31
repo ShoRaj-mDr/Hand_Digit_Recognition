@@ -11,7 +11,7 @@ Python3, Keras, TensorFlow, sklearn, OpenCV, Mathplotlib
 ---
 The images in the dataset are either showing the left hand or right hand, of which the hand may be holding up 0 to 5 finger digits. Each image is 128x128 pixels and is centered by the center of mass.
 
-![Fingers Dataset](Fingers Dataset.png)
+![Fingers Dataset](https://github.com/ShoRaj-mDr/Hand_Digit_Recognition/blob/master/images/Fingers%20Dataset.png)
 
 Dataset contains total of 21,600 images
 - Training set: 18000 images
